@@ -50,9 +50,8 @@ int main(void){
 
     fscanf(fp_r, "%d", &depth);
     fprintf(fp_w, "%d\n", depth);
-    //여기까지는 문제없음
 
-    //2d memory allocation 정보를 할당할 2차원 배열 생성?
+    //2d memory allocation 정보를 할당할 2차원 배열 생성
     img = (unsigned char**)malloc(height*sizeof(unsigned char*));
     for (i = 0; i < height; i++)
     {
